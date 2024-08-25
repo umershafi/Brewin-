@@ -6,6 +6,7 @@ from env_v4 import EnvironmentManager
 from intbase import InterpreterBase, ErrorType
 from type_valuev4 import Closure, Type, Value, create_value, get_printable
 
+print("hello")
 
 class ExecStatus(Enum):
     CONTINUE = 1
